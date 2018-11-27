@@ -7,13 +7,16 @@
     <title>Evo | Login</title>
   </head>
   <body>
-    <!-- Navigation Bar --!>
     <ul>
       <li><a href="index.html">Home</a></li>
       <li style="float:right"><a class="active" href="login.html">Login</a></li>
     </ul>
 
-    <!-- Content --!>
+    <form action="../php/loginSystem.php">
+      Username: <input type="text" name="uname"><br>
+      Password: <input type="text" name="passwd"><br>
+      <input type="submit" value="Submit">
+    </form>
 
   </body>
 </html>
